@@ -15,7 +15,7 @@ una vez clonado el repositorio procedemos cambiarnos de directorio con el comand
 
 para correr el contenedor
 ```console
-    docker compose up
+     docker compose up
    ```
 para detener el contenedor
 ```console
