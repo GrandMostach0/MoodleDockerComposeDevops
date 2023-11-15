@@ -6,6 +6,8 @@
  ```console
 https://github.com/GrandMostach0/MoodleDockerComposeDevops.git
 ```
+![dockerCompose_1](https://github.com/GrandMostach0/MoodleDockerComposeDevops/assets/75960744/2e245318-3a2e-4899-a695-99fcb91496f1)
+
 una vez clonado el repositorio procedemos cambiarnos de directorio con el comando:
 ```console
     cd MoodelDockerComposeDevops 
