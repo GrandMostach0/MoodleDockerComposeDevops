@@ -67,9 +67,11 @@ en *curso1 ---> participants ---> Enrol users*
 
 
 agregamos a lugo como estudiante
+
 ![dockerCompose_12](https://github.com/GrandMostach0/MoodleDockerComposeDevops/assets/75960744/57d076b2-9c12-4368-a21a-0e9973878ac5)
 
 agregamos a raul como maestro
+
 ![dockerCompose_13](https://github.com/GrandMostach0/MoodleDockerComposeDevops/assets/75960744/277c24a0-57f7-400e-890a-70a5c6cb75ca)
 
 -----------------------------------
