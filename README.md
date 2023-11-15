@@ -13,6 +13,17 @@ una vez clonado el repositorio procedemos cambiarnos de directorio con el comand
    ```
    Una vez ya estando en el directorio procedemos a realizar los siguientes comandos:
 
+para correr el contenedor
+```console
+    docker compuse up
+   ```
+para detener el contenedor
+```console
+    docker compose down
+   ```
+
+## este paso de aqui es para crear el bitnami desde el inicio, pero como ya esta levantano no es es necesario hacer
+
  1. utilizar el comando docker-compose de la imagen **bitnami/moodle** para levantar el docker-compose de esa imagen, el código es: 
  ```console
 curl -sSL https://raw.githubusercontent.com/bitnami/containers/main/bitnami/moodle/docker-compose.yml > docker-compose.yml
