@@ -17,24 +17,13 @@ para correr el contenedor
 ```console
     sudo docker compose up
    ```
-para detener el contenedor
+*(si deseamos que sea en segundo plano solo agregamo al final un -d)*
+
+para detener el contenedor si estamos en segundo plano
 ```console
     docker compose down
    ```
-
-## este paso de aqui es para crear el bitnami desde el inicio, pero como ya esta levantano no es es necesario hacer
-
- 1. utilizar el comando docker-compose de la imagen **bitnami/moodle** para levantar el docker-compose de esa imagen, el código es: 
- ```console
-curl -sSL https://raw.githubusercontent.com/bitnami/containers/main/bitnami/moodle/docker-compose.yml > docker-compose.yml
-docker-compose up -d
-```
-![dockerCompose_1](https://github.com/GrandMostach0/MoodleDockerComposeDevops/assets/75960744/2e245318-3a2e-4899-a695-99fcb91496f1)
-2. para ver si el contenedor está corriendo ejecutamos el código de Docker siguiente, donde también nos muestra que está corriendo en el puerto 80:
- ```console
-docker ps 
-```
-![dockerCompose_2](https://github.com/GrandMostach0/MoodleDockerComposeDevops/assets/75960744/20cec4ba-89bf-483e-9fa9-e0d9d35c0a8a)
+*(si no estamos en segundo plano entonces utilizamos (ctrl + c) y debe funcionar)*
 
 ##
 ## Demostración de que esta corriendo 
