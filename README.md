@@ -13,13 +13,13 @@ una vez clonado el repositorio procedemos cambiarnos de directorio con el comand
    ```
    Una vez ya estando en el directorio procedemos a realizar los siguientes comandos:
 
-para correr el contenedor
+1. para correr el contenedor
 ```console
     sudo docker compose up
    ```
 *(si deseamos que sea en segundo plano solo agregamo al final un -d)*
 
-para detener el contenedor si estamos en segundo plano
+2. para detener el contenedor si estamos en segundo plano
 ```console
     docker compose down
    ```
